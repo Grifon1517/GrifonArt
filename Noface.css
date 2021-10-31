@@ -1,0 +1,117 @@
+html{
+	background-color: #dcb271;
+}
+#main{
+	position: absolute;
+	width: 1205px;
+	background-color: #c79549;
+	border: solid 8px #352205;
+	top: 240px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-height: 900px;
+    max-height: 1700px;
+}
+#header{
+	position: absolute;
+	width: 1205px;
+	height: 200px;
+	background-color: #623d03;
+	top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 8px #352205;
+}
+h1{
+	color: gold;
+	font-size: 100px;
+	margin-top: 40px;
+	text-align: center;
+	font-family: Maler Regular;
+}
+#menu{
+	position: absolute;
+	height: 50px;
+	width: 1205px;
+	margin-top: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+.b{
+	text-decoration: none;
+	cursor: pointer;
+	border-right: solid 8px #352205;
+	border-top: solid 8px #352205;
+	border-bottom: solid 8px #352205;
+	background-color: #ffd391;
+	padding: 7px;
+	font-size: 27px;
+	margin-top: 10px;
+	border-left: 0;
+	padding-right: 93px;
+	padding-left: 93px;
+	
+	
+}
+.a{
+	text-decoration: none;
+	cursor: pointer;
+	border-top: solid 8px #352205;
+	border-bottom: solid 8px #352205;
+	background-color: #ffd391;
+	font-size: 27px;
+	padding: 7px;
+	border-right: 0px;
+	padding-right: 93px;
+	padding-left: 93px;
+	
+}
+.b:hover{
+	border: solid 10px gold;
+	font-size: 30px;
+}
+.a:hover{
+	border: solid 10px gold;
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#str{
+	position: absolute;
+	top: 300px;
+	left: 350px;
+
+}
+.im{
+	background-color: #ffd391;
+	border: solid 8px #352205;
+	display: inline-block;
+}
+@font-face{
+	font-family: Maler Regular;
+	src: url(fonts/MalerRegular400.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+#p{
+	float: left;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	
+
+}
+#img{
+	display: inline-block;
+	margin-left: 133px;
+    width: 516px;
+}
+ul, li{
+	list-style-type: none;
+	margin-left: -19px;
+}

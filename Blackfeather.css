@@ -4,13 +4,14 @@ html{
 #main{
 	position: absolute;
 	width: 1205px;
-	height: 700px;
 	background-color: #c79549;
 	border: solid 8px #352205;
 	top: 240px;
     left: 0;
     right: 0;
     margin: auto;
+    min-height: 900px;
+    max-height: 1700px;
 }
 #header{
 	position: absolute;
@@ -83,16 +84,34 @@ a{
 	position: absolute;
 	top: 300px;
 	left: 350px;
-    min-width: 1205px;
+
 }
 .im{
 	background-color: #ffd391;
 	border: solid 8px #352205;
-	margin-left: 694px;
+	display: inline-block;
 }
 @font-face{
 	font-family: Maler Regular;
 	src: url(fonts/MalerRegular400.ttf) format("truetype");
 	font-style: normal;
 	font-weight: normal;
+}
+#p{
+	float: left;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	
+
+}
+#img{
+	display: inline-block;
+	margin-left: 122px;
+    width: 516px;
+}
+ul, li{
+	list-style-type: none;
+	margin-left: -19px;
 }

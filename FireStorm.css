@@ -4,13 +4,14 @@ html{
 #main{
 	position: absolute;
 	width: 1205px;
-	height: 1000px;
 	background-color: #c79549;
 	border: solid 8px #352205;
 	top: 240px;
     left: 0;
     right: 0;
     margin: auto;
+    min-height: 900px;
+    max-height: 1700px;
 }
 #header{
 	position: absolute;
@@ -52,6 +53,7 @@ h1{
 	padding-right: 93px;
 	padding-left: 93px;
 	
+	
 }
 .a{
 	text-decoration: none;
@@ -77,27 +79,39 @@ h1{
 a{
 	text-decoration: none;
 	color: black;
-	cursor: pointer;
 }
-#un{
-	top: 10%;
-	height: 100%;
-    width: 50%;
-    left: 10%;
+#str{
 	position: absolute;
-	font-size: 40px;
+	top: 300px;
+	left: 350px;
+
 }
-#am{
-	top: 9%;
-	left: 60%;
-	height: 100%;
-    width: 50%;
-	position: absolute;
-	font-size: 40px;
+.im{
+	background-color: #ffd391;
+	border: solid 8px #352205;
+	display: inline-block;
 }
 @font-face{
 	font-family: Maler Regular;
 	src: url(fonts/MalerRegular400.ttf) format("truetype");
 	font-style: normal;
 	font-weight: normal;
+}
+#p{
+	float: left;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	
+
+}
+#img{
+	display: inline-block;
+	margin-left: 29px;
+    width: 516px;
+}
+ul, li{
+	list-style-type: none;
+	margin-left: -19px;
 }
